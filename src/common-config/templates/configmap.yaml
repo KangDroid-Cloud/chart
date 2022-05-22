@@ -2,6 +2,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: kdrc-common-settings
+  namespace: {{.Values.namespace}}
 data:
   MongoSection__ConnectionString: {{.Values.MongoSection.ConnectionString}}
   MongoSection__DatabaseName: {{.Values.MongoSection.DatabaseName}}

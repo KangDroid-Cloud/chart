@@ -1,3 +1,4 @@
+namespace: test-server
 MongoSection:
   ConnectionString: "mongodb://root:testPassword@mongodb-endpoint:27017"
   DatabaseName: "TestRunner"
