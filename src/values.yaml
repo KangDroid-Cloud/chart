@@ -1,0 +1,6 @@
+# Default values for kdrc-core-chart.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+image:
+  version: v1.0.0
+  environment: test
