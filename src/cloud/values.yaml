@@ -1,0 +1,15 @@
+# For Global Variables
+namespace: test-server
+
+
+# For Common-Config
+MongoSection:
+  ConnectionString: "mongodb://root:testPassword@mongodb-endpoint:27017"
+  DatabaseName: "TestRunner"
+  AccountCollectionName: "Accounts"
+  AccessTokenCollectionName: "AccessTokens"
+
+# For Common Images 
+image:
+  version: v1.0.0
+  environment: test
