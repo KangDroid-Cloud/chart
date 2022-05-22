@@ -3,12 +3,12 @@ entries:
   kdrc-core-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-05-22T11:20:34.127407+09:00"
+    created: "2022-05-22T12:07:33.795157+09:00"
     description: A Helm chart for Kubernetes
     digest: d640a0f310f6a38e770ccdbf0881577e0a577fabb362b24a391c8262678ffd19
     name: kdrc-core-chart
     type: application
     urls:
-    - https://kangdroid-cloud.github.io/core-chart/release/kdrc-core-chart-0.1.0.tgz
+    - https://kangdroid-cloud.github.io/chart/release/kdrc-core-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2022-05-22T11:20:34.126977+09:00"
+generated: "2022-05-22T12:07:33.79295+09:00"
