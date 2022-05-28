@@ -3,7 +3,7 @@ entries:
   kdrc-common-config:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-05-22T17:16:54.725002+09:00"
+    created: "2022-05-28T12:46:14.129238+09:00"
     description: KDRC Common Configuration
     digest: f5b21d8e92423987e24f2dbf0413e285283e4397f295e1bd422418a4c954f908
     name: kdrc-common-config
@@ -14,7 +14,7 @@ entries:
   kdrc-core-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-05-22T17:16:54.726599+09:00"
+    created: "2022-05-28T12:46:14.130812+09:00"
     description: KDRC-Core Helm Chart
     digest: 5d7fbc8831cbfc1bcfd88f9e143af94c6d6a70695f41afd85fb919dd76658db6
     name: kdrc-core-chart
@@ -24,7 +24,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-05-22T17:16:54.725821+09:00"
+    created: "2022-05-28T12:46:14.1301+09:00"
     description: A Helm chart for Kubernetes
     digest: d640a0f310f6a38e770ccdbf0881577e0a577fabb362b24a391c8262678ffd19
     name: kdrc-core-chart
@@ -35,7 +35,17 @@ entries:
   mongodb-test:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-05-22T17:16:54.726795+09:00"
+    created: "2022-05-28T12:46:14.131884+09:00"
+    description: Test MongoDB Helm chart for internal testing
+    digest: 2065e936923ff336475fb5b7651a83539e0e290c791063a824f2a27a91959a77
+    name: mongodb-test
+    type: application
+    urls:
+    - https://kangdroid-cloud.github.io/chart/release/mongodb-test-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-05-28T12:46:14.131669+09:00"
     description: Test MongoDB Helm chart for internal testing
     digest: 042261399662a824bbd0c06ba60fec1fdc524a122aae3cdd37bf39ac5e7b324a
     name: mongodb-test
@@ -43,4 +53,4 @@ entries:
     urls:
     - https://kangdroid-cloud.github.io/chart/release/mongodb-test-0.1.0.tgz
     version: 0.1.0
-generated: "2022-05-22T17:16:54.724304+09:00"
+generated: "2022-05-28T12:46:14.12783+09:00"
