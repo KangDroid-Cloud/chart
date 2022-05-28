@@ -3,3 +3,9 @@ MongoSection:
   DatabaseName: "TestRunner"
   AccountCollectionName: "Accounts"
   AccessTokenCollectionName: "AccessTokens"
+
+RabbitMq:
+  Host: "localhost"
+  VirtualHost: "/"
+  UserName: "guest"
+  Password: "guest"

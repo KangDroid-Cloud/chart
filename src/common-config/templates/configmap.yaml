@@ -7,4 +7,7 @@ data:
   MongoSection__DatabaseName: {{.Values.MongoSection.DatabaseName}}
   MongoSection__AccountCollectionName: {{.Values.MongoSection.AccountCollectionName}}
   MongoSection__AccessTokenCollectionName: {{.Values.MongoSection.AccessTokenCollectionName}}
-
+  RabbitMq__Host: {{.Values.RabbitMq.Host}}
+  RabbitMq__VirtualHost: {{.Values.RabbitMq.VirtualHost}}
+  RabbitMq__Username: {{.Values.RabbitMq.Username}}
+  RabbitMq__Password: {{.Values.RabbitMq.Password}}
