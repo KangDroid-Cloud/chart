@@ -7,5 +7,5 @@ MongoSection:
 RabbitMq:
   Host: "localhost"
   VirtualHost: "/"
-  UserName: "guest"
+  Username: "guest"
   Password: "guest"
