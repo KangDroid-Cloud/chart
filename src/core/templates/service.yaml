@@ -4,7 +4,7 @@ metadata:
   name: kdrc-core-service
 spec:
   ports:
-    - nodePort: 31301
+    - nodePort: {{.Values.port}}
       port: 80
       protocol: TCP
       targetPort: 80

@@ -4,3 +4,4 @@
 image:
   version: v1.0.0
   environment: test
+port: 31000
