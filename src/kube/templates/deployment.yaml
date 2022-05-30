@@ -1,0 +1,31 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: kdrc-kubernetes-deployment
+spec:
+  replicas: 1
+  minReadySeconds: 15
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 1
+      maxUnavailable: 0
+  selector:
+    matchLabels:
+      app: kdrc-kubernetes-pods
+  template:
+    metadata:
+      labels:
+        app: kdrc-kubernetes-pods
+    spec:
+      containers:
+        - name: kdrc-kubernetes-container
+          image: kangdroid.azurecr.io/kubernetes/{{.Values.image.environment}}:{{.Values.image.version}}
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 80
+          envFrom:
+            - configMapRef:
+                name: kdrc-common-settings
+            - configMapRef:
+                name: kdrc-kubernetes-settings

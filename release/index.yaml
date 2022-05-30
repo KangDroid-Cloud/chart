@@ -3,7 +3,7 @@ entries:
   kdrc-common-config:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-05-29T18:27:12.490226+09:00"
+    created: "2022-05-30T21:15:12.924715+09:00"
     description: KDRC Common Configuration
     digest: af0cbbc1b10cb7d2560ae8b2b6d3a2e7d8c22a196322f1a303cae7884f21a97b
     name: kdrc-common-config
@@ -13,7 +13,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-05-29T18:27:12.489507+09:00"
+    created: "2022-05-30T21:15:12.923601+09:00"
     description: KDRC Common Configuration
     digest: 0dfc17e7a31a4b8ffb19ecf499293b1cbbf508569b7cbe3bb94f9a84971cc775
     name: kdrc-common-config
@@ -23,7 +23,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-05-29T18:27:12.488792+09:00"
+    created: "2022-05-30T21:15:12.922972+09:00"
     description: KDRC Common Configuration
     digest: f5b21d8e92423987e24f2dbf0413e285283e4397f295e1bd422418a4c954f908
     name: kdrc-common-config
@@ -34,7 +34,7 @@ entries:
   kdrc-core-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-05-29T18:27:12.491966+09:00"
+    created: "2022-05-30T21:15:12.927686+09:00"
     description: KDRC-Core Helm Chart
     digest: 48ee8098e170f1bfdc040be564d251bee0535fb1fdc5a20147fca71f20d59bb4
     name: kdrc-core-chart
@@ -44,7 +44,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-05-29T18:27:12.491747+09:00"
+    created: "2022-05-30T21:15:12.926905+09:00"
     description: KDRC-Core Helm Chart
     digest: 5d7fbc8831cbfc1bcfd88f9e143af94c6d6a70695f41afd85fb919dd76658db6
     name: kdrc-core-chart
@@ -54,7 +54,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-05-29T18:27:12.490978+09:00"
+    created: "2022-05-30T21:15:12.926178+09:00"
     description: A Helm chart for Kubernetes
     digest: d640a0f310f6a38e770ccdbf0881577e0a577fabb362b24a391c8262678ffd19
     name: kdrc-core-chart
@@ -65,7 +65,7 @@ entries:
   kdrc-rabbitmq:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-05-29T18:27:12.492775+09:00"
+    created: "2022-05-30T21:15:12.928387+09:00"
     description: A Delayed-Exchange enabled rabbitmq.
     digest: 40da9d13b767bf2f38b446ec09b6e1165a64ba43aaa9fd162787e6964b6553f3
     name: kdrc-rabbitmq
@@ -73,10 +73,21 @@ entries:
     urls:
     - https://kangdroid-cloud.github.io/chart/release/kdrc-rabbitmq-0.1.0.tgz
     version: 0.1.0
+  kube:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-05-30T21:15:12.928606+09:00"
+    description: A KDRC Kubernetes Support Server.
+    digest: ed6a0dbb087b02857868137ff33192d06f352dccf6c7ac8bb2125730bd2ccbe2
+    name: kube
+    type: application
+    urls:
+    - https://kangdroid-cloud.github.io/chart/release/kube-0.1.0.tgz
+    version: 0.1.0
   mongodb-test:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-05-29T18:27:12.494593+09:00"
+    created: "2022-05-30T21:15:12.930179+09:00"
     description: Test MongoDB Helm chart for internal testing
     digest: 2065e936923ff336475fb5b7651a83539e0e290c791063a824f2a27a91959a77
     name: mongodb-test
@@ -86,7 +97,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-05-29T18:27:12.493971+09:00"
+    created: "2022-05-30T21:15:12.929344+09:00"
     description: Test MongoDB Helm chart for internal testing
     digest: 042261399662a824bbd0c06ba60fec1fdc524a122aae3cdd37bf39ac5e7b324a
     name: mongodb-test
@@ -94,4 +105,4 @@ entries:
     urls:
     - https://kangdroid-cloud.github.io/chart/release/mongodb-test-0.1.0.tgz
     version: 0.1.0
-generated: "2022-05-29T18:27:12.486551+09:00"
+generated: "2022-05-30T21:15:12.92081+09:00"
